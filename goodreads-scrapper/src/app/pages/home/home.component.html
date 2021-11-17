@@ -1,0 +1,35 @@
+<div>  
+<table>
+    <thead>
+        <th>
+            Book Name
+        </th>
+        <th>
+            Average Rating
+        </th>
+        <th>
+            Published On
+        </th>
+        <th>
+            Editions
+        </th>
+</thead>
+<tbody>
+    <tr *ngFor="let book of books">
+        <td>
+            <a href="{{book.book_link}}">{{book.book_name}}</a>
+        </td>
+        <td>
+            {{book.average_rating}}
+        </td>
+        <td>
+            {{book.published}}
+        </td>
+        <td>
+            {{book.editions}}
+        </td>
+    </tr>
+</tbody>
+</table>
+
+</div>

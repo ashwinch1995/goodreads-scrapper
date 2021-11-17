@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "goodreads-scrapper:build:production",
+            "firebaseProject": "fir-tutorial-ae826",
+            "firebaseHostingSite": "fir-tutorial-ae826"
+          }
         }
       }
     }

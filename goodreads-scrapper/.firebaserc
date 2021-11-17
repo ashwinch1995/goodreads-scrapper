@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "goodreads-scrape"
+  },
+  "targets": {
+    "goodreads-scrape": {
+      "hosting": {
+        "goodreads-scrapper": [
+          "goodreads-scrape"
+        ]
+      }
+    }
+  }
+}
